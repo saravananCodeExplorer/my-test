@@ -1,13 +1,10 @@
 import React from 'react';
-import { MDBFooter, MDBContainer, MDBRow, MDBCol } from 'mdb-react-ui-kit';
-
-import 'mdb-react-ui-kit/dist/css/mdb.min.css';
-import { MDBIcon } from 'mdb-react-ui-kit';
+import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 
 export default function Footer() {
   return (
     <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
-      <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
+      {/* <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
         <div className='me-5 d-none d-lg-block'>
           <span>Get connected with us on social networks:</span>
         </div>
@@ -32,7 +29,7 @@ export default function Footer() {
             <MDBIcon fab icon="github" />
           </a>
         </div>
-      </section>
+      </section> */}
 
       <section className=''>
         <MDBContainer className='text-center text-md-start mt-5'>
